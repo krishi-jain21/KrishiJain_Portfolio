@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    text-decoration: none;
+    margin:0;
+    padding:0;
+}
+body{
+    background: linear-gradient(180deg, #EEC9C9 0%, #DEE5FF 96.87%);
+    background-repeat: no-repeat;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 60px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0);
+    position: sticky;
+    top:0;
+      
+}
+
+.nav-links{
+    display:flex;
+    gap:60px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+#logo>img{
+    height:51px;
+    width: 64px;
+    mix-blend-mode: multiply;
+}
+
+#resume-button{
+    font-family: 'Quicksand', sans-serif;
+    padding: 2px 6px;
+    font-size: 19px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(240, 15, 15, 0.14) 0%, rgba(24, 4, 251, 0.22) 97.4%);
+    border: 1px solid #000000;
+}
+
+#head-section{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding:35px 0px;
+
+}
+
+#head-section>h1{
+        width:50%;
+        font-size: 100px;
+        background: -webkit-linear-gradient(#cf95c6,#8d96eb);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Pacifico', cursive;
+        
+}
+
+
+#p1{
+    font-size: 30px;
+    font-family: 'Kite One', sans-serif;
+    padding-top:25px;
+}
+
+#p2{
+    font-size: 20px;
+    font-family: 'Kite One', sans-serif;
+    padding:50px 0px;
+}
+
+.section-layout{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 0px;
+
+}
+.section-heading{
+    font-size: 70px;
+    font-weight: 100;
+    padding: 100px 0px;
+    font-family: 'Kite One', sans-serif;
+
+}
+
+.About-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:150px;
+    font-family: 'Kite One', sans-serif;
+
+}
+
+.matter-about{
+    width:40%;
+    font-size: 40px;
+
+}
+
+#image{
+    width:330px;
+    height:auto;
+    border: 6px solid #000000;
+    transition: all ease-out ,1s;
+}
+#image:hover{
+    box-shadow: -20px -20px 0px 10px rgba(0, 0, 0, 0.25), 20px 20px 0px 10px rgba(225, 173, 173, 0.76);
+
+}
+
+.projects-cards-container{
+    display: flex;
+    gap:50px;
+    flex-wrap: wrap;
+    width:80%;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.card>img{
+    height:193px;
+    width:320px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+}
+
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding:15px;
+    width:min-content;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.card>p,h1{
+    font-family: 'Kite One', sans-serif;
+
+
+}
+.card>a{
+    padding:10px;
+    font-size: 20px;
+    background-color: #0d110e;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.skill-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.skill-row>h1{
+    width:45%;
+}
+.skill-row>p{
+    width:45%;
+    font-family: 'Kite One', sans-serif;
+    font-size: 20px;
+}
+
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    align-items: center;
+    padding: 60px;
+}
